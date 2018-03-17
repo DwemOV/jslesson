@@ -2,17 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link href="styles.css" rel="stylesheet">
+    <title>lesson 1-10</title>
 </head>
-<body>
-eeeee
-fds
-fd
-sf
-ds
-fds
-f
-ds
 
-</body>
+<body>
+<div class="wrapper">
+    <header>
+        <ul class="main-menu">
+            <li><a href="#company">О компании</a></li>
+            <li><a href="#services">Услуги</a>
+                <ul class="sub-menu">
+                    <li><a href="#1">Разработка</a></li>
+                    <li><a href="#2">Продвижение</a></li>
+                    <li><a href="#3">Контекст</a></li>
+                </ul>
+            </li>
+            <li><a href="#team">Сотрудники</a>
+                <ul class="sub-menu">
+                    <li><a href="#1">Руководство</a></li>
+                    <li><a href="#2">Рабочие</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!--<div id="hi">jhgjghjhg</div>-->
+    </header>
+
+    <main>
+        <form  method="get">
+          <div> как тебя зовут ? </div>
+          <input id="hi" name="NameUser" type="text">
+          <button name="Go" type="submit" onclick="sayHi(NameUser.value)">GO</button>
+
+        </form>
+
+         <script src="scripts.js"></script>
+    </main>
+    <footer>
+
+    <div><a href="#">link</a> &copy; днище</div>
+    </footer>
+</div>
+    </body>
+
 </html>
